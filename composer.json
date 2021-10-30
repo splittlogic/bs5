@@ -24,7 +24,7 @@
                 "splittlogic\\bs5\\bs5ServiceProvider"
             ],
             "aliases": {
-                "html": "splittlogic\\bs5\\Facades\\bs5"
+                "bs5": "splittlogic\\bs5\\Facades\\bs5"
             }
         }
     }

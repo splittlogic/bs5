@@ -1,4 +1,4 @@
-# boom
+# bs5 (Bootstrap 5)
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
@@ -18,7 +18,7 @@ $ composer require splittlogic/bs5
 Once installed run:
 
   php artisan vendor:publish --tag=public --force
-  
+
  go to yourdomain.com/splittlogic/bs5 to view reference/tutorial guide.
 
 ## Change log

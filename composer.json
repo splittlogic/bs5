@@ -1,0 +1,31 @@
+{
+    "name": "splittlogic/bs5",
+    "type": "library",
+    "description": "Laravel Bootstrap 5 Generator",
+    "homepage": "https://github.com/splittlogic/bs5",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SplittLogic",
+            "email": "splittlogic@gmail.com"
+        }
+    ],
+    "require": {
+        "splittlogic/html": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "splittlogic\\bs5\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "splittlogic\\bs5\\bs5ServiceProvider"
+            ],
+            "aliases": {
+                "bs5": "splittlogic\\bs5\\Facades\\bs5"
+            }
+        }
+    }
+}
